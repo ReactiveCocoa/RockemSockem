@@ -64,6 +64,7 @@
 		885BB98117237BA60077DC8F /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB97F17237BA60077DC8F /* DDLog.m */; };
 		885BB99217237BE00077DC8F /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885BB98B17237BD60077DC8F /* ReactiveCocoa.framework */; };
 		885BB99417237D0E0077DC8F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885BB99317237D0E0077DC8F /* Security.framework */; };
+		885BB99517237E000077DC8F /* RockemSockem.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB8FE17237A710077DC8F /* RockemSockem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -373,6 +374,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				885BB99517237E000077DC8F /* RockemSockem.h in Headers */,
 				885BB92617237A8B0077DC8F /* RSMServer.h in Headers */,
 				885BB92B17237A8B0077DC8F /* RSMWebSocket.h in Headers */,
 				885BB97C17237B940077DC8F /* WebSocket.h in Headers */,
@@ -643,6 +645,7 @@
 				);
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -674,6 +677,7 @@
 				);
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
