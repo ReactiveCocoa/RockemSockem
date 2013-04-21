@@ -11,7 +11,7 @@ It uses [CocoaHTTPServer](https://github.com/robbiehanson/CocoaHTTPServer) to do
 1. Add RockemSockem.framework to your Link Binary with Libraries.
 1. Add RockemSockem.framework to a Copy Files phase which copies it into Frameworks.
 1. Weep that this list of instructions is so damn long.
-1. Follow all those same steps, but for ReactiveCocoa (in External).
+1. Follow all those same steps, but for ReactiveCocoa (in [External](External/)).
 
 ```objc
 server = [[RSMServer alloc] init];
