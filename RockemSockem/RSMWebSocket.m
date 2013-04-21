@@ -7,6 +7,7 @@
 //
 
 #import "RSMWebSocket.h"
+#import "GCDAsyncSocket.h"
 
 @interface RSMWebSocket () {
 	RACSubject *_messages;
@@ -36,6 +37,12 @@
 	_opened = [opened copy];
 
 	return self;
+}
+
+#pragma mark NSObject
+
+- (NSString *)description {
+	return [NSString stringWithFormat:@"<%@: %p> host: %@", self.class, self, asyncSocket.connectedHost];
 }
 
 #pragma mark WebSocket

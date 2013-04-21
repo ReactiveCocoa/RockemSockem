@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		885BB9A817237ED00077DC8F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885BB9A717237ED00077DC8F /* Cocoa.framework */; };
+		885BB9B217237ED00077DC8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 885BB9B017237ED00077DC8F /* InfoPlist.strings */; };
+		885BB9B417237ED00077DC8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB9B317237ED00077DC8F /* main.m */; };
+		885BB9B817237ED00077DC8F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 885BB9B617237ED00077DC8F /* Credits.rtf */; };
+		885BB9BB17237ED00077DC8F /* RSDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB9BA17237ED00077DC8F /* RSDAppDelegate.m */; };
+		885BB9BE17237ED00077DC8F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 885BB9BC17237ED00077DC8F /* MainMenu.xib */; };
+		885BB9C617237ED00077DC8F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885BB9C517237ED00077DC8F /* SenTestingKit.framework */; };
+		885BB9C717237ED00077DC8F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885BB9A717237ED00077DC8F /* Cocoa.framework */; };
+		885BB9CF17237ED00077DC8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 885BB9CD17237ED00077DC8F /* InfoPlist.strings */; };
+		885BB9D217237ED00077DC8F /* RockemSockemSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB9D117237ED00077DC8F /* RockemSockemSampleTests.m */; };
+		885BB9E717237EEE0077DC8F /* RockemSockem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885BB9E417237EE80077DC8F /* RockemSockem.framework */; };
+		885BB9EB17237F0D0077DC8F /* RockemSockem.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 885BB9E417237EE80077DC8F /* RockemSockem.framework */; };
+		885BB9FB17237F730077DC8F /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885BB9F617237F5C0077DC8F /* ReactiveCocoa.framework */; };
+		885BB9FE17237F850077DC8F /* ReactiveCocoa.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 885BB9F617237F5C0077DC8F /* ReactiveCocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		885BB9C817237ED00077DC8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885BB99C17237ED00077DC8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 885BB9A317237ED00077DC8F;
+			remoteInfo = RockemSockemSample;
+		};
+		885BB9E317237EE80077DC8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885BB9DB17237EE80077DC8F /* RockemSockem.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 885BB8EE17237A710077DC8F;
+			remoteInfo = RockemSockem;
+		};
+		885BB9E517237EE80077DC8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885BB9DB17237EE80077DC8F /* RockemSockem.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 885BB90617237A710077DC8F;
+			remoteInfo = RockemSockemTests;
+		};
+		885BB9E817237EF50077DC8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885BB9DB17237EE80077DC8F /* RockemSockem.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 885BB8ED17237A710077DC8F;
+			remoteInfo = RockemSockem;
+		};
+		885BB9F517237F5C0077DC8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885BB9EF17237F5C0077DC8F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88037F8315056328001A5B19;
+			remoteInfo = ReactiveCocoa;
+		};
+		885BB9F717237F5C0077DC8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885BB9EF17237F5C0077DC8F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88F440AB153DAC820097B4C3;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
+		885BB9F917237F5C0077DC8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885BB9EF17237F5C0077DC8F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88CDF7DC15000FCF00163A9F;
+			remoteInfo = ReactiveCocoaTests;
+		};
+		885BB9FC17237F7E0077DC8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885BB9EF17237F5C0077DC8F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 88037F8215056328001A5B19;
+			remoteInfo = ReactiveCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		885BB9EA17237EFB0077DC8F /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				885BB9EB17237F0D0077DC8F /* RockemSockem.framework in Copy Frameworks */,
+				885BB9FE17237F850077DC8F /* ReactiveCocoa.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		885BB9A417237ED00077DC8F /* RockemSockemSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockemSockemSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		885BB9A717237ED00077DC8F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		885BB9AA17237ED00077DC8F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		885BB9AB17237ED00077DC8F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		885BB9AC17237ED00077DC8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		885BB9AF17237ED00077DC8F /* RockemSockemSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RockemSockemSample-Info.plist"; sourceTree = "<group>"; };
+		885BB9B117237ED00077DC8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		885BB9B317237ED00077DC8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		885BB9B517237ED00077DC8F /* RockemSockemSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RockemSockemSample-Prefix.pch"; sourceTree = "<group>"; };
+		885BB9B717237ED00077DC8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		885BB9B917237ED00077DC8F /* RSDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSDAppDelegate.h; sourceTree = "<group>"; };
+		885BB9BA17237ED00077DC8F /* RSDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSDAppDelegate.m; sourceTree = "<group>"; };
+		885BB9BD17237ED00077DC8F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		885BB9C417237ED00077DC8F /* RockemSockemSampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockemSockemSampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		885BB9C517237ED00077DC8F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		885BB9CC17237ED00077DC8F /* RockemSockemSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RockemSockemSampleTests-Info.plist"; sourceTree = "<group>"; };
+		885BB9CE17237ED00077DC8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		885BB9D017237ED00077DC8F /* RockemSockemSampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RockemSockemSampleTests.h; sourceTree = "<group>"; };
+		885BB9D117237ED00077DC8F /* RockemSockemSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RockemSockemSampleTests.m; sourceTree = "<group>"; };
+		885BB9DB17237EE80077DC8F /* RockemSockem.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RockemSockem.xcodeproj; path = ../RockemSockem.xcodeproj; sourceTree = "<group>"; };
+		885BB9EF17237F5C0077DC8F /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = ../External/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		885BB9A117237ED00077DC8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885BB9FB17237F730077DC8F /* ReactiveCocoa.framework in Frameworks */,
+				885BB9E717237EEE0077DC8F /* RockemSockem.framework in Frameworks */,
+				885BB9A817237ED00077DC8F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885BB9C017237ED00077DC8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885BB9C617237ED00077DC8F /* SenTestingKit.framework in Frameworks */,
+				885BB9C717237ED00077DC8F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		885BB99B17237ED00077DC8F = {
+			isa = PBXGroup;
+			children = (
+				885BB9AD17237ED00077DC8F /* RockemSockemSample */,
+				885BB9CA17237ED00077DC8F /* RockemSockemSampleTests */,
+				885BB9A617237ED00077DC8F /* Frameworks */,
+				885BB9A517237ED00077DC8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		885BB9A517237ED00077DC8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				885BB9A417237ED00077DC8F /* RockemSockemSample.app */,
+				885BB9C417237ED00077DC8F /* RockemSockemSampleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		885BB9A617237ED00077DC8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				885BB9EF17237F5C0077DC8F /* ReactiveCocoa.xcodeproj */,
+				885BB9DB17237EE80077DC8F /* RockemSockem.xcodeproj */,
+				885BB9A717237ED00077DC8F /* Cocoa.framework */,
+				885BB9C517237ED00077DC8F /* SenTestingKit.framework */,
+				885BB9A917237ED00077DC8F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		885BB9A917237ED00077DC8F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				885BB9AA17237ED00077DC8F /* AppKit.framework */,
+				885BB9AB17237ED00077DC8F /* CoreData.framework */,
+				885BB9AC17237ED00077DC8F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		885BB9AD17237ED00077DC8F /* RockemSockemSample */ = {
+			isa = PBXGroup;
+			children = (
+				885BB9B917237ED00077DC8F /* RSDAppDelegate.h */,
+				885BB9BA17237ED00077DC8F /* RSDAppDelegate.m */,
+				885BB9BC17237ED00077DC8F /* MainMenu.xib */,
+				885BB9AE17237ED00077DC8F /* Supporting Files */,
+			);
+			path = RockemSockemSample;
+			sourceTree = "<group>";
+		};
+		885BB9AE17237ED00077DC8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				885BB9AF17237ED00077DC8F /* RockemSockemSample-Info.plist */,
+				885BB9B017237ED00077DC8F /* InfoPlist.strings */,
+				885BB9B317237ED00077DC8F /* main.m */,
+				885BB9B517237ED00077DC8F /* RockemSockemSample-Prefix.pch */,
+				885BB9B617237ED00077DC8F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		885BB9CA17237ED00077DC8F /* RockemSockemSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				885BB9D017237ED00077DC8F /* RockemSockemSampleTests.h */,
+				885BB9D117237ED00077DC8F /* RockemSockemSampleTests.m */,
+				885BB9CB17237ED00077DC8F /* Supporting Files */,
+			);
+			path = RockemSockemSampleTests;
+			sourceTree = "<group>";
+		};
+		885BB9CB17237ED00077DC8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				885BB9CC17237ED00077DC8F /* RockemSockemSampleTests-Info.plist */,
+				885BB9CD17237ED00077DC8F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		885BB9DC17237EE80077DC8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				885BB9E417237EE80077DC8F /* RockemSockem.framework */,
+				885BB9E617237EE80077DC8F /* RockemSockemTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		885BB9F017237F5C0077DC8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				885BB9F617237F5C0077DC8F /* ReactiveCocoa.framework */,
+				885BB9F817237F5C0077DC8F /* libReactiveCocoa-iOS.a */,
+				885BB9FA17237F5C0077DC8F /* ReactiveCocoaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		885BB9A317237ED00077DC8F /* RockemSockemSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885BB9D517237ED00077DC8F /* Build configuration list for PBXNativeTarget "RockemSockemSample" */;
+			buildPhases = (
+				885BB9A017237ED00077DC8F /* Sources */,
+				885BB9A117237ED00077DC8F /* Frameworks */,
+				885BB9A217237ED00077DC8F /* Resources */,
+				885BB9EA17237EFB0077DC8F /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				885BB9FD17237F7E0077DC8F /* PBXTargetDependency */,
+				885BB9E917237EF50077DC8F /* PBXTargetDependency */,
+			);
+			name = RockemSockemSample;
+			productName = RockemSockemSample;
+			productReference = 885BB9A417237ED00077DC8F /* RockemSockemSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		885BB9C317237ED00077DC8F /* RockemSockemSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885BB9D817237ED00077DC8F /* Build configuration list for PBXNativeTarget "RockemSockemSampleTests" */;
+			buildPhases = (
+				885BB9BF17237ED00077DC8F /* Sources */,
+				885BB9C017237ED00077DC8F /* Frameworks */,
+				885BB9C117237ED00077DC8F /* Resources */,
+				885BB9C217237ED00077DC8F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				885BB9C917237ED00077DC8F /* PBXTargetDependency */,
+			);
+			name = RockemSockemSampleTests;
+			productName = RockemSockemSampleTests;
+			productReference = 885BB9C417237ED00077DC8F /* RockemSockemSampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		885BB99C17237ED00077DC8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RSD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Josh Abernathy";
+			};
+			buildConfigurationList = 885BB99F17237ED00077DC8F /* Build configuration list for PBXProject "RockemSockemSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 885BB99B17237ED00077DC8F;
+			productRefGroup = 885BB9A517237ED00077DC8F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 885BB9F017237F5C0077DC8F /* Products */;
+					ProjectRef = 885BB9EF17237F5C0077DC8F /* ReactiveCocoa.xcodeproj */;
+				},
+				{
+					ProductGroup = 885BB9DC17237EE80077DC8F /* Products */;
+					ProjectRef = 885BB9DB17237EE80077DC8F /* RockemSockem.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				885BB9A317237ED00077DC8F /* RockemSockemSample */,
+				885BB9C317237ED00077DC8F /* RockemSockemSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		885BB9E417237EE80077DC8F /* RockemSockem.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RockemSockem.framework;
+			remoteRef = 885BB9E317237EE80077DC8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		885BB9E617237EE80077DC8F /* RockemSockemTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RockemSockemTests.octest;
+			remoteRef = 885BB9E517237EE80077DC8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		885BB9F617237F5C0077DC8F /* ReactiveCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveCocoa.framework;
+			remoteRef = 885BB9F517237F5C0077DC8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		885BB9F817237F5C0077DC8F /* libReactiveCocoa-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoa-iOS.a";
+			remoteRef = 885BB9F717237F5C0077DC8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		885BB9FA17237F5C0077DC8F /* ReactiveCocoaTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactiveCocoaTests.octest;
+			remoteRef = 885BB9F917237F5C0077DC8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		885BB9A217237ED00077DC8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885BB9B217237ED00077DC8F /* InfoPlist.strings in Resources */,
+				885BB9B817237ED00077DC8F /* Credits.rtf in Resources */,
+				885BB9BE17237ED00077DC8F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885BB9C117237ED00077DC8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885BB9CF17237ED00077DC8F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		885BB9C217237ED00077DC8F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		885BB9A017237ED00077DC8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885BB9B417237ED00077DC8F /* main.m in Sources */,
+				885BB9BB17237ED00077DC8F /* RSDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885BB9BF17237ED00077DC8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885BB9D217237ED00077DC8F /* RockemSockemSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		885BB9C917237ED00077DC8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 885BB9A317237ED00077DC8F /* RockemSockemSample */;
+			targetProxy = 885BB9C817237ED00077DC8F /* PBXContainerItemProxy */;
+		};
+		885BB9E917237EF50077DC8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RockemSockem;
+			targetProxy = 885BB9E817237EF50077DC8F /* PBXContainerItemProxy */;
+		};
+		885BB9FD17237F7E0077DC8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReactiveCocoa;
+			targetProxy = 885BB9FC17237F7E0077DC8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		885BB9B017237ED00077DC8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				885BB9B117237ED00077DC8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		885BB9B617237ED00077DC8F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				885BB9B717237ED00077DC8F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		885BB9BC17237ED00077DC8F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				885BB9BD17237ED00077DC8F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		885BB9CD17237ED00077DC8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				885BB9CE17237ED00077DC8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		885BB9D317237ED00077DC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		885BB9D417237ED00077DC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		885BB9D617237ED00077DC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Documents/Development/Builds/RockemSockemSample-fkfbokagpbjitfacpnyokdrlqldr/Build/Products/Debug\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RockemSockemSample/RockemSockemSample-Prefix.pch";
+				INFOPLIST_FILE = "RockemSockemSample/RockemSockemSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		885BB9D717237ED00077DC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Documents/Development/Builds/RockemSockemSample-fkfbokagpbjitfacpnyokdrlqldr/Build/Products/Debug\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RockemSockemSample/RockemSockemSample-Prefix.pch";
+				INFOPLIST_FILE = "RockemSockemSample/RockemSockemSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		885BB9D917237ED00077DC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RockemSockemSample.app/Contents/MacOS/RockemSockemSample";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RockemSockemSample/RockemSockemSample-Prefix.pch";
+				INFOPLIST_FILE = "RockemSockemSampleTests/RockemSockemSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		885BB9DA17237ED00077DC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RockemSockemSample.app/Contents/MacOS/RockemSockemSample";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RockemSockemSample/RockemSockemSample-Prefix.pch";
+				INFOPLIST_FILE = "RockemSockemSampleTests/RockemSockemSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		885BB99F17237ED00077DC8F /* Build configuration list for PBXProject "RockemSockemSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885BB9D317237ED00077DC8F /* Debug */,
+				885BB9D417237ED00077DC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885BB9D517237ED00077DC8F /* Build configuration list for PBXNativeTarget "RockemSockemSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885BB9D617237ED00077DC8F /* Debug */,
+				885BB9D717237ED00077DC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		885BB9D817237ED00077DC8F /* Build configuration list for PBXNativeTarget "RockemSockemSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885BB9D917237ED00077DC8F /* Debug */,
+				885BB9DA17237ED00077DC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 885BB99C17237ED00077DC8F /* Project object */;
+}

@@ -38,7 +38,7 @@
 		885BB96517237B940077DC8F /* HTTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB93F17237B940077DC8F /* HTTPMessage.h */; };
 		885BB96617237B940077DC8F /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB94017237B940077DC8F /* HTTPMessage.m */; };
 		885BB96717237B940077DC8F /* HTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB94117237B940077DC8F /* HTTPResponse.h */; };
-		885BB96817237B940077DC8F /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB94217237B940077DC8F /* HTTPServer.h */; };
+		885BB96817237B940077DC8F /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB94217237B940077DC8F /* HTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		885BB96917237B940077DC8F /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB94317237B940077DC8F /* HTTPServer.m */; };
 		885BB96A17237B940077DC8F /* MultipartFormDataParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB94517237B940077DC8F /* MultipartFormDataParser.h */; };
 		885BB96B17237B940077DC8F /* MultipartFormDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB94617237B940077DC8F /* MultipartFormDataParser.m */; };
@@ -377,6 +377,7 @@
 				885BB99517237E000077DC8F /* RockemSockem.h in Headers */,
 				885BB92617237A8B0077DC8F /* RSMServer.h in Headers */,
 				885BB92B17237A8B0077DC8F /* RSMWebSocket.h in Headers */,
+				885BB96817237B940077DC8F /* HTTPServer.h in Headers */,
 				885BB97C17237B940077DC8F /* WebSocket.h in Headers */,
 				885BB92817237A8B0077DC8F /* RSMServer+Private.h in Headers */,
 				885BB92917237A8B0077DC8F /* RSMSocketConnection.h in Headers */,
@@ -390,7 +391,6 @@
 				885BB96417237B940077DC8F /* HTTPLogging.h in Headers */,
 				885BB96517237B940077DC8F /* HTTPMessage.h in Headers */,
 				885BB96717237B940077DC8F /* HTTPResponse.h in Headers */,
-				885BB96817237B940077DC8F /* HTTPServer.h in Headers */,
 				885BB96A17237B940077DC8F /* MultipartFormDataParser.h in Headers */,
 				885BB96C17237B940077DC8F /* MultipartMessageHeader.h in Headers */,
 				885BB96E17237B940077DC8F /* MultipartMessageHeaderField.h in Headers */,
@@ -756,6 +756,7 @@
 				885BB91A17237A710077DC8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		885BB91B17237A710077DC8F /* Build configuration list for PBXNativeTarget "RockemSockemTests" */ = {
 			isa = XCConfigurationList;
@@ -764,6 +765,7 @@
 				885BB91D17237A710077DC8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
