@@ -1,0 +1,12 @@
+[submodule "External/CocoaHTTPServer"]
+	path = External/CocoaHTTPServer
+	url = https://github.com/robbiehanson/CocoaHTTPServer.git
+[submodule "External/CocoaAsyncSocket"]
+	path = External/CocoaAsyncSocket
+	url = https://github.com/robbiehanson/CocoaAsyncSocket.git
+[submodule "External/CocoaLumberjack"]
+	path = External/CocoaLumberjack
+	url = https://github.com/robbiehanson/CocoaLumberjack.git
+[submodule "External/ReactiveCocoa"]
+	path = External/ReactiveCocoa
+	url = https://github.com/ReactiveCocoa/ReactiveCocoa.git

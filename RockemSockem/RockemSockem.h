@@ -6,8 +6,5 @@
 //  Copyright (c) 2013 Josh Abernathy. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
-@interface RockemSockem : NSObject
-
-@end
+#import <RockemSockem/RSMServer.h>
+#import <RockemSockem/RSMWebSocket.h>
