@@ -25,7 +25,7 @@
 		885BB93017237B8A0077DC8F /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB92E17237B8A0077DC8F /* GCDAsyncSocket.h */; };
 		885BB93117237B8A0077DC8F /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB92F17237B8A0077DC8F /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		885BB95A17237B940077DC8F /* DDData.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB93417237B940077DC8F /* DDData.h */; };
-		885BB95B17237B940077DC8F /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB93517237B940077DC8F /* DDData.m */; };
+		885BB95B17237B940077DC8F /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB93517237B940077DC8F /* DDData.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		885BB95C17237B940077DC8F /* DDNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB93617237B940077DC8F /* DDNumber.h */; };
 		885BB95D17237B940077DC8F /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB93717237B940077DC8F /* DDNumber.m */; };
 		885BB95E17237B940077DC8F /* DDRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB93817237B940077DC8F /* DDRange.h */; };
@@ -33,7 +33,7 @@
 		885BB96017237B940077DC8F /* HTTPAuthenticationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB93A17237B940077DC8F /* HTTPAuthenticationRequest.h */; };
 		885BB96117237B940077DC8F /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB93B17237B940077DC8F /* HTTPAuthenticationRequest.m */; };
 		885BB96217237B940077DC8F /* HTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB93C17237B940077DC8F /* HTTPConnection.h */; };
-		885BB96317237B940077DC8F /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB93D17237B940077DC8F /* HTTPConnection.m */; };
+		885BB96317237B940077DC8F /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB93D17237B940077DC8F /* HTTPConnection.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		885BB96417237B940077DC8F /* HTTPLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB93E17237B940077DC8F /* HTTPLogging.h */; };
 		885BB96517237B940077DC8F /* HTTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB93F17237B940077DC8F /* HTTPMessage.h */; };
 		885BB96617237B940077DC8F /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB94017237B940077DC8F /* HTTPMessage.m */; };
@@ -41,17 +41,17 @@
 		885BB96817237B940077DC8F /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB94217237B940077DC8F /* HTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		885BB96917237B940077DC8F /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB94317237B940077DC8F /* HTTPServer.m */; };
 		885BB96A17237B940077DC8F /* MultipartFormDataParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB94517237B940077DC8F /* MultipartFormDataParser.h */; };
-		885BB96B17237B940077DC8F /* MultipartFormDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB94617237B940077DC8F /* MultipartFormDataParser.m */; };
+		885BB96B17237B940077DC8F /* MultipartFormDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB94617237B940077DC8F /* MultipartFormDataParser.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		885BB96C17237B940077DC8F /* MultipartMessageHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB94717237B940077DC8F /* MultipartMessageHeader.h */; };
-		885BB96D17237B940077DC8F /* MultipartMessageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB94817237B940077DC8F /* MultipartMessageHeader.m */; };
+		885BB96D17237B940077DC8F /* MultipartMessageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB94817237B940077DC8F /* MultipartMessageHeader.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		885BB96E17237B940077DC8F /* MultipartMessageHeaderField.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB94917237B940077DC8F /* MultipartMessageHeaderField.h */; };
-		885BB96F17237B940077DC8F /* MultipartMessageHeaderField.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB94A17237B940077DC8F /* MultipartMessageHeaderField.m */; };
+		885BB96F17237B940077DC8F /* MultipartMessageHeaderField.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB94A17237B940077DC8F /* MultipartMessageHeaderField.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		885BB97017237B940077DC8F /* HTTPAsyncFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB94C17237B940077DC8F /* HTTPAsyncFileResponse.h */; };
 		885BB97117237B940077DC8F /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB94D17237B940077DC8F /* HTTPAsyncFileResponse.m */; };
 		885BB97217237B940077DC8F /* HTTPDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB94E17237B940077DC8F /* HTTPDataResponse.h */; };
 		885BB97317237B940077DC8F /* HTTPDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB94F17237B940077DC8F /* HTTPDataResponse.m */; };
 		885BB97417237B940077DC8F /* HTTPDynamicFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB95017237B940077DC8F /* HTTPDynamicFileResponse.h */; };
-		885BB97517237B940077DC8F /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB95117237B940077DC8F /* HTTPDynamicFileResponse.m */; };
+		885BB97517237B940077DC8F /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB95117237B940077DC8F /* HTTPDynamicFileResponse.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		885BB97617237B940077DC8F /* HTTPErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB95217237B940077DC8F /* HTTPErrorResponse.h */; };
 		885BB97717237B940077DC8F /* HTTPErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB95317237B940077DC8F /* HTTPErrorResponse.m */; };
 		885BB97817237B940077DC8F /* HTTPFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB95417237B940077DC8F /* HTTPFileResponse.h */; };
@@ -106,6 +106,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88036CFC17273B3200ABBE70 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		88036CFE17273B3200ABBE70 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		88036CFF17273B3200ABBE70 /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
+		88036D0017273B3200ABBE70 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		88036D0217273B3200ABBE70 /* Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
+		88036D0317273B3200ABBE70 /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
+		88036D0517273B3200ABBE70 /* Mac-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
+		88036D0617273B3200ABBE70 /* Mac-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Base.xcconfig"; sourceTree = "<group>"; };
+		88036D0717273B3200ABBE70 /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
+		88036D0817273B3200ABBE70 /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
+		88036D0917273B3200ABBE70 /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		88036D0A17273B3200ABBE70 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		88036D0C17273B3200ABBE70 /* iOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
+		88036D0D17273B3200ABBE70 /* iOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
+		88036D0E17273B3200ABBE70 /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		885BB8EE17237A710077DC8F /* RockemSockem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RockemSockem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		885BB8F117237A710077DC8F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		885BB8F417237A710077DC8F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -197,12 +212,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88036CFA17273B3200ABBE70 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				88036CFB17273B3200ABBE70 /* Base */,
+				88036D0417273B3200ABBE70 /* Mac OS X */,
+				88036D0A17273B3200ABBE70 /* README.md */,
+				88036D0B17273B3200ABBE70 /* iOS */,
+			);
+			name = Configuration;
+			path = External/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/libextobjc/Configuration;
+			sourceTree = "<group>";
+		};
+		88036CFB17273B3200ABBE70 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				88036CFC17273B3200ABBE70 /* Common.xcconfig */,
+				88036CFD17273B3200ABBE70 /* Configurations */,
+				88036D0117273B3200ABBE70 /* Targets */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		88036CFD17273B3200ABBE70 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				88036CFE17273B3200ABBE70 /* Debug.xcconfig */,
+				88036CFF17273B3200ABBE70 /* Profile.xcconfig */,
+				88036D0017273B3200ABBE70 /* Release.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		88036D0117273B3200ABBE70 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				88036D0217273B3200ABBE70 /* Application.xcconfig */,
+				88036D0317273B3200ABBE70 /* StaticLibrary.xcconfig */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		88036D0417273B3200ABBE70 /* Mac OS X */ = {
+			isa = PBXGroup;
+			children = (
+				88036D0517273B3200ABBE70 /* Mac-Application.xcconfig */,
+				88036D0617273B3200ABBE70 /* Mac-Base.xcconfig */,
+				88036D0717273B3200ABBE70 /* Mac-DynamicLibrary.xcconfig */,
+				88036D0817273B3200ABBE70 /* Mac-Framework.xcconfig */,
+				88036D0917273B3200ABBE70 /* Mac-StaticLibrary.xcconfig */,
+			);
+			path = "Mac OS X";
+			sourceTree = "<group>";
+		};
+		88036D0B17273B3200ABBE70 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				88036D0C17273B3200ABBE70 /* iOS-Application.xcconfig */,
+				88036D0D17273B3200ABBE70 /* iOS-Base.xcconfig */,
+				88036D0E17273B3200ABBE70 /* iOS-StaticLibrary.xcconfig */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
 		885BB8E417237A700077DC8F = {
 			isa = PBXGroup;
 			children = (
 				885BB8F717237A710077DC8F /* RockemSockem */,
 				885BB90D17237A710077DC8F /* RockemSockemTests */,
 				885BB8F017237A710077DC8F /* Frameworks */,
+				88036CFA17273B3200ABBE70 /* Configuration */,
 				885BB8EF17237A710077DC8F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -610,8 +689,72 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		88036D0F17273B6700ABBE70 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88036CFF17273B3200ABBE70 /* Profile.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = (
+					"-Wall",
+					"-Werror",
+				);
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Profile;
+		};
+		88036D1017273B6700ABBE70 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88036D0817273B3200ABBE70 /* Mac-Framework.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RockemSockem/RockemSockem-Prefix.pch";
+				INFOPLIST_FILE = "RockemSockem/RockemSockem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Profile;
+		};
+		88036D1117273B6700ABBE70 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88036D0517273B3200ABBE70 /* Mac-Application.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RockemSockem/RockemSockem-Prefix.pch";
+				INFOPLIST_FILE = "RockemSockemTests/RockemSockemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Profile;
+		};
 		885BB91617237A710077DC8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88036CFE17273B3200ABBE70 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -651,6 +794,7 @@
 		};
 		885BB91717237A710077DC8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88036D0017273B3200ABBE70 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -683,6 +827,7 @@
 		};
 		885BB91917237A710077DC8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88036D0817273B3200ABBE70 /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -698,6 +843,7 @@
 		};
 		885BB91A17237A710077DC8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88036D0817273B3200ABBE70 /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -713,6 +859,7 @@
 		};
 		885BB91C17237A710077DC8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88036D0517273B3200ABBE70 /* Mac-Application.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
@@ -726,6 +873,7 @@
 		};
 		885BB91D17237A710077DC8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88036D0517273B3200ABBE70 /* Mac-Application.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
@@ -745,6 +893,7 @@
 			buildConfigurations = (
 				885BB91617237A710077DC8F /* Debug */,
 				885BB91717237A710077DC8F /* Release */,
+				88036D0F17273B6700ABBE70 /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -754,6 +903,7 @@
 			buildConfigurations = (
 				885BB91917237A710077DC8F /* Debug */,
 				885BB91A17237A710077DC8F /* Release */,
+				88036D1017273B6700ABBE70 /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -763,6 +913,7 @@
 			buildConfigurations = (
 				885BB91C17237A710077DC8F /* Debug */,
 				885BB91D17237A710077DC8F /* Release */,
+				88036D1117273B6700ABBE70 /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
