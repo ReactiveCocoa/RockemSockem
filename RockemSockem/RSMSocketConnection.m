@@ -26,4 +26,13 @@
 	return socket;
 }
 
+- (BOOL)shouldAcceptRequest:(HTTPMessage *)newRequest {
+	RSMServer *server = (RSMServer *)config.server;
+	NSArray *acceptableOrigins = server.acceptedOrigins;
+	if (acceptableOrigins == nil) return YES;
+
+	NSString *origin = newRequest.allHeaderFields[@"Origin"];
+	return [acceptableOrigins containsObject:origin];
+}
+
 @end

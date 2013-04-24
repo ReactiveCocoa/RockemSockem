@@ -16,4 +16,9 @@
 // receive messages.
 @property (nonatomic, readonly, strong) RACSignal *webSockets;
 
+// The origins from which the server will accept connections. By default, this
+// is nil which means all origins will be accepted. This can be used as a
+// security measure to restrict connections to specific server.
+@property (nonatomic, copy) NSArray *acceptedOrigins;
+
 @end
