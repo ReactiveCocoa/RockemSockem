@@ -62,9 +62,9 @@
 		885BB97D17237B940077DC8F /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB95917237B940077DC8F /* WebSocket.m */; };
 		885BB98017237BA60077DC8F /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB97E17237BA60077DC8F /* DDLog.h */; };
 		885BB98117237BA60077DC8F /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB97F17237BA60077DC8F /* DDLog.m */; };
-		885BB99217237BE00077DC8F /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885BB98B17237BD60077DC8F /* ReactiveCocoa.framework */; };
 		885BB99417237D0E0077DC8F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885BB99317237D0E0077DC8F /* Security.framework */; };
 		885BB99517237E000077DC8F /* RockemSockem.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB8FE17237A710077DC8F /* RockemSockem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88C419F0172832DF0006D21A /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C419EF172832DF0006D21A /* ReactiveCocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,34 +74,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 885BB8ED17237A710077DC8F;
 			remoteInfo = RockemSockem;
-		};
-		885BB98A17237BD60077DC8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 885BB98217237BD60077DC8F /* ReactiveCocoa.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 88037F8315056328001A5B19;
-			remoteInfo = ReactiveCocoa;
-		};
-		885BB98C17237BD60077DC8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 885BB98217237BD60077DC8F /* ReactiveCocoa.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 88F440AB153DAC820097B4C3;
-			remoteInfo = "ReactiveCocoa-iOS";
-		};
-		885BB98E17237BD60077DC8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 885BB98217237BD60077DC8F /* ReactiveCocoa.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 88CDF7DC15000FCF00163A9F;
-			remoteInfo = ReactiveCocoaTests;
-		};
-		885BB99017237BDA0077DC8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 885BB98217237BD60077DC8F /* ReactiveCocoa.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 88037F8215056328001A5B19;
-			remoteInfo = ReactiveCocoa;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -184,8 +156,8 @@
 		885BB95917237B940077DC8F /* WebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSocket.m; sourceTree = "<group>"; };
 		885BB97E17237BA60077DC8F /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = External/CocoaLumberjack/Lumberjack/DDLog.h; sourceTree = "<group>"; };
 		885BB97F17237BA60077DC8F /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = External/CocoaLumberjack/Lumberjack/DDLog.m; sourceTree = "<group>"; };
-		885BB98217237BD60077DC8F /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = External/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
 		885BB99317237D0E0077DC8F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		88C419EF172832DF0006D21A /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = /Users/joshaber/Documents/Development/Builds/Release/ReactiveCocoa.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,8 +165,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C419F0172832DF0006D21A /* ReactiveCocoa.framework in Frameworks */,
 				885BB99417237D0E0077DC8F /* Security.framework in Frameworks */,
-				885BB99217237BE00077DC8F /* ReactiveCocoa.framework in Frameworks */,
 				885BB8F217237A710077DC8F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,12 +270,12 @@
 		885BB8F017237A710077DC8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				885BB98217237BD60077DC8F /* ReactiveCocoa.xcodeproj */,
 				885BB93217237B940077DC8F /* CocoaHTTPServer */,
 				885BB92E17237B8A0077DC8F /* GCDAsyncSocket.h */,
 				885BB92F17237B8A0077DC8F /* GCDAsyncSocket.m */,
 				885BB97E17237BA60077DC8F /* DDLog.h */,
 				885BB97F17237BA60077DC8F /* DDLog.m */,
+				88C419EF172832DF0006D21A /* ReactiveCocoa.framework */,
 				885BB99317237D0E0077DC8F /* Security.framework */,
 				885BB8F117237A710077DC8F /* Cocoa.framework */,
 				885BB90717237A710077DC8F /* SenTestingKit.framework */,
@@ -436,16 +408,6 @@
 			path = Responses;
 			sourceTree = "<group>";
 		};
-		885BB98317237BD60077DC8F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				885BB98B17237BD60077DC8F /* ReactiveCocoa.framework */,
-				885BB98D17237BD60077DC8F /* libReactiveCocoa-iOS.a */,
-				885BB98F17237BD60077DC8F /* ReactiveCocoaTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -498,7 +460,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				885BB99117237BDA0077DC8F /* PBXTargetDependency */,
 			);
 			name = RockemSockem;
 			productName = RockemSockem;
@@ -543,12 +504,6 @@
 			mainGroup = 885BB8E417237A700077DC8F;
 			productRefGroup = 885BB8EF17237A710077DC8F /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 885BB98317237BD60077DC8F /* Products */;
-					ProjectRef = 885BB98217237BD60077DC8F /* ReactiveCocoa.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				885BB8ED17237A710077DC8F /* RockemSockem */,
@@ -556,30 +511,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		885BB98B17237BD60077DC8F /* ReactiveCocoa.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ReactiveCocoa.framework;
-			remoteRef = 885BB98A17237BD60077DC8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		885BB98D17237BD60077DC8F /* libReactiveCocoa-iOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libReactiveCocoa-iOS.a";
-			remoteRef = 885BB98C17237BD60077DC8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		885BB98F17237BD60077DC8F /* ReactiveCocoaTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ReactiveCocoaTests.octest;
-			remoteRef = 885BB98E17237BD60077DC8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		885BB8EC17237A710077DC8F /* Resources */ = {
@@ -661,11 +592,6 @@
 			isa = PBXTargetDependency;
 			target = 885BB8ED17237A710077DC8F /* RockemSockem */;
 			targetProxy = 885BB90A17237A710077DC8F /* PBXContainerItemProxy */;
-		};
-		885BB99117237BDA0077DC8F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ReactiveCocoa;
-			targetProxy = 885BB99017237BDA0077DC8F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
