@@ -63,4 +63,10 @@
 	[_messages sendCompleted];
 }
 
+#pragma mark Properties
+
+- (HTTPMessage *)requestMessage {
+	return request;
+}
+
 @end

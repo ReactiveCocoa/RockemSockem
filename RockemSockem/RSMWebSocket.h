@@ -7,11 +7,15 @@
 //
 
 #import "WebSocket.h"
+#import "HTTPMessage.h"
 
 // A single WebSocket.
 @interface RSMWebSocket : WebSocket
 
 // The NSStrings sent to the socket.
 @property (nonatomic, readonly, strong) RACSignal *messages;
+
+// The request message which opened the web socket connection.
+@property (nonatomic, readonly, strong) HTTPMessage *requestMessage;
 
 @end

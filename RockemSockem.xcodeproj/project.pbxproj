@@ -35,7 +35,7 @@
 		885BB96217237B940077DC8F /* HTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB93C17237B940077DC8F /* HTTPConnection.h */; };
 		885BB96317237B940077DC8F /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB93D17237B940077DC8F /* HTTPConnection.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		885BB96417237B940077DC8F /* HTTPLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB93E17237B940077DC8F /* HTTPLogging.h */; };
-		885BB96517237B940077DC8F /* HTTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB93F17237B940077DC8F /* HTTPMessage.h */; };
+		885BB96517237B940077DC8F /* HTTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB93F17237B940077DC8F /* HTTPMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		885BB96617237B940077DC8F /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB94017237B940077DC8F /* HTTPMessage.m */; };
 		885BB96717237B940077DC8F /* HTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB94117237B940077DC8F /* HTTPResponse.h */; };
 		885BB96817237B940077DC8F /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB94217237B940077DC8F /* HTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -420,6 +420,7 @@
 				885BB92B17237A8B0077DC8F /* RSMWebSocket.h in Headers */,
 				885BB96817237B940077DC8F /* HTTPServer.h in Headers */,
 				885BB97C17237B940077DC8F /* WebSocket.h in Headers */,
+				885BB96517237B940077DC8F /* HTTPMessage.h in Headers */,
 				885BB92817237A8B0077DC8F /* RSMServer+Private.h in Headers */,
 				885BB92917237A8B0077DC8F /* RSMSocketConnection.h in Headers */,
 				885BB92D17237A8B0077DC8F /* RSMWebSocket+Private.h in Headers */,
@@ -430,7 +431,6 @@
 				885BB96017237B940077DC8F /* HTTPAuthenticationRequest.h in Headers */,
 				885BB96217237B940077DC8F /* HTTPConnection.h in Headers */,
 				885BB96417237B940077DC8F /* HTTPLogging.h in Headers */,
-				885BB96517237B940077DC8F /* HTTPMessage.h in Headers */,
 				885BB96717237B940077DC8F /* HTTPResponse.h in Headers */,
 				885BB96A17237B940077DC8F /* MultipartFormDataParser.h in Headers */,
 				885BB96C17237B940077DC8F /* MultipartMessageHeader.h in Headers */,
