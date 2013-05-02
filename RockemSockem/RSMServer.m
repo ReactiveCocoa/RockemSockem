@@ -10,6 +10,10 @@
 #import "RSMServer+Private.h"
 #import "RSMSocketConnection.h"
 
+@interface RSMServer ()
+
+@end
+
 @implementation RSMServer
 
 @synthesize webSockets = _webSockets;
@@ -18,6 +22,8 @@
 
 - (void)dealloc {
 	[_webSockets sendCompleted];
+
+	if (_SSLIdentity != NULL) CFRelease(_SSLIdentity);
 }
 
 - (id)init {
@@ -29,6 +35,16 @@
 	self.connectionClass = RSMSocketConnection.class;
 
 	return self;
+}
+
+#pragma mark SSL
+
+- (void)configureForSSLWithIdentity:(SecIdentityRef)identity certificates:(NSArray *)certificates {
+	NSParameterAssert(identity != NULL);
+
+	self.SSLIdentity = (SecIdentityRef)CFRetain(identity);
+	self.SSLCertificates = certificates;
+	self.useSSL = YES;
 }
 
 @end

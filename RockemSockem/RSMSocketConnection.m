@@ -10,12 +10,28 @@
 #import "RSMWebSocket+Private.h"
 #import "RSMServer+Private.h"
 
+@interface RSMSocketConnection ()
+
+@property (nonatomic, readonly, unsafe_unretained) RSMServer *server;
+
+@end
+
 @implementation RSMSocketConnection
 
 #pragma mark HTTPConnection
 
+- (BOOL)isSecureServer {
+	return self.server.useSSL;
+}
+
+- (NSArray *)sslIdentityAndCertificates {
+	NSArray *identityArray = @[ (__bridge id)self.server.SSLIdentity ];
+	if (self.server.SSLCertificates == nil) return identityArray;
+	return [identityArray arrayByAddingObjectsFromArray:self.server.SSLCertificates];
+}
+
 - (WebSocket *)webSocketForURI:(NSString *)path {
-	__weak id weakServer = config.server;
+	__weak id weakServer = self.server;
 	RSMWebSocket *socket = [[RSMWebSocket alloc] initWithRequest:request socket:asyncSocket opened:^(RSMWebSocket *socket) {
 		RSMServer *strongServer = weakServer;
 		if (strongServer == nil) return;
@@ -27,12 +43,17 @@
 }
 
 - (BOOL)shouldAcceptRequest:(HTTPMessage *)newRequest {
-	RSMServer *server = (RSMServer *)config.server;
-	NSArray *acceptableOrigins = server.acceptedOrigins;
+	NSArray *acceptableOrigins = self.server.acceptedOrigins;
 	if (acceptableOrigins == nil) return YES;
 
 	NSString *origin = newRequest.allHeaderFields[@"Origin"];
 	return [acceptableOrigins containsObject:origin];
+}
+
+#pragma mark Server
+
+- (RSMServer *)server {
+	return (RSMServer *)config.server;
 }
 
 @end

@@ -21,4 +21,12 @@
 // security measure to restrict connections to specific server.
 @property (nonatomic, copy) NSArray *acceptedOrigins;
 
+// Configure the server to use SSL.
+//
+// identity       - The identity to use. Cannot be NULL.
+// certifications - The SecIdentityRefs to use. May be nil.
+//
+// Returns nothing.
+- (void)configureForSSLWithIdentity:(SecIdentityRef)identity certificates:(NSArray *)certificates;
+
 @end

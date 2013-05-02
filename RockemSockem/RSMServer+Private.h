@@ -13,4 +13,14 @@
 	RACSubject *_webSockets;
 }
 
+// Should the server use SSL?
+@property (nonatomic, assign) BOOL useSSL;
+
+// The SSL identity to use. If `useSSL` is YES, this will not be NULL, otherwise
+// its value is undefined.
+@property (nonatomic, assign) SecIdentityRef SSLIdentity;
+
+// An array of SecIdentityRefs. May be nil.
+@property (nonatomic, copy) NSArray *SSLCertificates;
+
 @end
