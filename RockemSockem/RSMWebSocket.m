@@ -13,6 +13,9 @@
 	RACSubject *_messages;
 }
 
+// The scheduler on which all messages (opened, message, closed) will be sent.
+@property (nonatomic, readonly, strong) RACScheduler *scheduler;
+
 @property (nonatomic, readonly, copy) void (^opened)(RSMWebSocket *);
 
 @end
@@ -36,6 +39,8 @@
 	_messages = [RACSubject subject];
 	_opened = [opened copy];
 
+	_scheduler = [RACScheduler schedulerWithPriority:RACSchedulerPriorityDefault name:@"com.ReactiveCocoa.RockemSockem.RSMWebSocket"];
+
 	return self;
 }
 
@@ -48,19 +53,25 @@
 #pragma mark WebSocket
 
 - (void)didOpen {
-	self.opened(self);
+	[self.scheduler schedule:^{
+		self.opened(self);
+	}];
 
 	[super didOpen];
 }
 
 - (void)didReceiveMessage:(NSString *)message {
-	[_messages sendNext:message];
+	[self.scheduler schedule:^{
+		[_messages sendNext:message];
+	}];
 
 	[super didReceiveMessage:message];
 }
 
 - (void)didClose {
-	[_messages sendCompleted];
+	[self.scheduler schedule:^{
+		[_messages sendCompleted];
+	}];
 
 	[super didClose];
 }
