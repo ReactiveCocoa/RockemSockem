@@ -48,19 +48,21 @@
 #pragma mark WebSocket
 
 - (void)didOpen {
-	[super didOpen];
-
 	self.opened(self);
+
+	[super didOpen];
 }
 
 - (void)didReceiveMessage:(NSString *)message {
 	[_messages sendNext:message];
+
+	[super didReceiveMessage:message];
 }
 
 - (void)didClose {
-	[super didClose];
-
 	[_messages sendCompleted];
+
+	[super didClose];
 }
 
 #pragma mark Properties
