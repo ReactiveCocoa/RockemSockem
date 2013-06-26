@@ -6,5 +6,5 @@
 //  Copyright (c) 2013 Josh Abernathy. All rights reserved.
 //
 
-#import <RockemSockem/RSMServer.h>
-#import <RockemSockem/RSMWebSocket.h>
+#import "RSMServer.h"
+#import "RSMWebSocket.h"

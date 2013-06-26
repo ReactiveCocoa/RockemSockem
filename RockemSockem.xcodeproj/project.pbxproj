@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		882438E0177B7B5D0071C196 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882438A4177B79A30071C196 /* ReactiveCocoa.framework */; };
 		885BB8F217237A710077DC8F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885BB8F117237A710077DC8F /* Cocoa.framework */; };
 		885BB8FC17237A710077DC8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 885BB8FA17237A710077DC8F /* InfoPlist.strings */; };
 		885BB90817237A710077DC8F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885BB90717237A710077DC8F /* SenTestingKit.framework */; };
@@ -64,10 +65,44 @@
 		885BB98117237BA60077DC8F /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB97F17237BA60077DC8F /* DDLog.m */; };
 		885BB99417237D0E0077DC8F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885BB99317237D0E0077DC8F /* Security.framework */; };
 		885BB99517237E000077DC8F /* RockemSockem.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB8FE17237A710077DC8F /* RockemSockem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88C419F0172832DF0006D21A /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C419EF172832DF0006D21A /* ReactiveCocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		882438A3177B79A30071C196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8824389A177B79A20071C196 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88037F8315056328001A5B19;
+			remoteInfo = ReactiveCocoa;
+		};
+		882438A5177B79A30071C196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8824389A177B79A20071C196 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88F440AB153DAC820097B4C3;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
+		882438A7177B79A30071C196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8824389A177B79A20071C196 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88CDF7DC15000FCF00163A9F;
+			remoteInfo = ReactiveCocoaTests;
+		};
+		882438AB177B79B00071C196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8824389A177B79A20071C196 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 88037F8215056328001A5B19;
+			remoteInfo = ReactiveCocoa;
+		};
+		882438E7177B7ECC0071C196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8824389A177B79A20071C196 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FAF5223174D4C2000CAC810;
+			remoteInfo = "ReactiveCocoaTests-iOS";
+		};
 		885BB90A17237A710077DC8F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 885BB8E517237A700077DC8F /* Project object */;
@@ -78,22 +113,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		88036CFC17273B3200ABBE70 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
-		88036CFE17273B3200ABBE70 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		88036CFF17273B3200ABBE70 /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
-		88036D0017273B3200ABBE70 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		88036D0217273B3200ABBE70 /* Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
-		88036D0317273B3200ABBE70 /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
-		88036D0517273B3200ABBE70 /* Mac-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
-		88036D0617273B3200ABBE70 /* Mac-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Base.xcconfig"; sourceTree = "<group>"; };
-		88036D0717273B3200ABBE70 /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
-		88036D0817273B3200ABBE70 /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
-		88036D0917273B3200ABBE70 /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		88036D0A17273B3200ABBE70 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		88036D0C17273B3200ABBE70 /* iOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
-		88036D0D17273B3200ABBE70 /* iOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
-		88036D0E17273B3200ABBE70 /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		8857CEF81729C24B003C7A12 /* Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
+		8824389A177B79A20071C196 /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = External/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
+		882438EB177B7EDC0071C196 /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		882438ED177B7EDC0071C196 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		882438EE177B7EDC0071C196 /* Profile.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
+		882438EF177B7EDC0071C196 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		882438F0177B7EDC0071C196 /* Test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
+		882438F2177B7EDC0071C196 /* Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
+		882438F3177B7EDC0071C196 /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
+		882438F5177B7EDC0071C196 /* Mac-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
+		882438F6177B7EDC0071C196 /* Mac-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Base.xcconfig"; sourceTree = "<group>"; };
+		882438F7177B7EDC0071C196 /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
+		882438F8177B7EDC0071C196 /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
+		882438F9177B7EDC0071C196 /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		882438FA177B7EDC0071C196 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		882438FC177B7EDC0071C196 /* iOS-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
+		882438FD177B7EDC0071C196 /* iOS-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
+		882438FE177B7EDC0071C196 /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		885BB8EE17237A710077DC8F /* RockemSockem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RockemSockem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		885BB8F117237A710077DC8F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		885BB8F417237A710077DC8F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -158,7 +194,6 @@
 		885BB97E17237BA60077DC8F /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = External/CocoaLumberjack/Lumberjack/DDLog.h; sourceTree = "<group>"; };
 		885BB97F17237BA60077DC8F /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = External/CocoaLumberjack/Lumberjack/DDLog.m; sourceTree = "<group>"; };
 		885BB99317237D0E0077DC8F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		88C419EF172832DF0006D21A /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = /Users/joshaber/Documents/Development/Builds/Release/ReactiveCocoa.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,7 +201,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88C419F0172832DF0006D21A /* ReactiveCocoa.framework in Frameworks */,
+				882438E0177B7B5D0071C196 /* ReactiveCocoa.framework in Frameworks */,
 				885BB99417237D0E0077DC8F /* Security.framework in Frameworks */,
 				885BB8F217237A710077DC8F /* Cocoa.framework in Frameworks */,
 			);
@@ -185,66 +220,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		88036CFA17273B3200ABBE70 /* Configuration */ = {
+		8824389B177B79A20071C196 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				88036CFB17273B3200ABBE70 /* Base */,
-				88036D0417273B3200ABBE70 /* Mac OS X */,
-				88036D0A17273B3200ABBE70 /* README.md */,
-				88036D0B17273B3200ABBE70 /* iOS */,
+				882438A4177B79A30071C196 /* ReactiveCocoa.framework */,
+				882438A6177B79A30071C196 /* libReactiveCocoa-iOS.a */,
+				882438A8177B79A30071C196 /* ReactiveCocoaTests.octest */,
+				882438E8177B7ECC0071C196 /* ReactiveCocoaTests-iOS.octest */,
 			);
-			name = Configuration;
-			path = External/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/libextobjc/Configuration;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		88036CFB17273B3200ABBE70 /* Base */ = {
+		882438E9177B7EDC0071C196 /* xcconfigs */ = {
 			isa = PBXGroup;
 			children = (
-				88036CFC17273B3200ABBE70 /* Common.xcconfig */,
-				88036CFD17273B3200ABBE70 /* Configurations */,
-				88036D0117273B3200ABBE70 /* Targets */,
+				882438EA177B7EDC0071C196 /* Base */,
+				882438F4177B7EDC0071C196 /* Mac OS X */,
+				882438FA177B7EDC0071C196 /* README.md */,
+				882438FB177B7EDC0071C196 /* iOS */,
+			);
+			name = xcconfigs;
+			path = External/ReactiveCocoa/external/xcconfigs;
+			sourceTree = "<group>";
+		};
+		882438EA177B7EDC0071C196 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				882438EB177B7EDC0071C196 /* Common.xcconfig */,
+				882438EC177B7EDC0071C196 /* Configurations */,
+				882438F1177B7EDC0071C196 /* Targets */,
 			);
 			path = Base;
 			sourceTree = "<group>";
 		};
-		88036CFD17273B3200ABBE70 /* Configurations */ = {
+		882438EC177B7EDC0071C196 /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
-				88036CFE17273B3200ABBE70 /* Debug.xcconfig */,
-				88036CFF17273B3200ABBE70 /* Profile.xcconfig */,
-				88036D0017273B3200ABBE70 /* Release.xcconfig */,
-				8857CEF81729C24B003C7A12 /* Test.xcconfig */,
+				882438ED177B7EDC0071C196 /* Debug.xcconfig */,
+				882438EE177B7EDC0071C196 /* Profile.xcconfig */,
+				882438EF177B7EDC0071C196 /* Release.xcconfig */,
+				882438F0177B7EDC0071C196 /* Test.xcconfig */,
 			);
 			path = Configurations;
 			sourceTree = "<group>";
 		};
-		88036D0117273B3200ABBE70 /* Targets */ = {
+		882438F1177B7EDC0071C196 /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				88036D0217273B3200ABBE70 /* Application.xcconfig */,
-				88036D0317273B3200ABBE70 /* StaticLibrary.xcconfig */,
+				882438F2177B7EDC0071C196 /* Application.xcconfig */,
+				882438F3177B7EDC0071C196 /* StaticLibrary.xcconfig */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
 		};
-		88036D0417273B3200ABBE70 /* Mac OS X */ = {
+		882438F4177B7EDC0071C196 /* Mac OS X */ = {
 			isa = PBXGroup;
 			children = (
-				88036D0517273B3200ABBE70 /* Mac-Application.xcconfig */,
-				88036D0617273B3200ABBE70 /* Mac-Base.xcconfig */,
-				88036D0717273B3200ABBE70 /* Mac-DynamicLibrary.xcconfig */,
-				88036D0817273B3200ABBE70 /* Mac-Framework.xcconfig */,
-				88036D0917273B3200ABBE70 /* Mac-StaticLibrary.xcconfig */,
+				882438F5177B7EDC0071C196 /* Mac-Application.xcconfig */,
+				882438F6177B7EDC0071C196 /* Mac-Base.xcconfig */,
+				882438F7177B7EDC0071C196 /* Mac-DynamicLibrary.xcconfig */,
+				882438F8177B7EDC0071C196 /* Mac-Framework.xcconfig */,
+				882438F9177B7EDC0071C196 /* Mac-StaticLibrary.xcconfig */,
 			);
 			path = "Mac OS X";
 			sourceTree = "<group>";
 		};
-		88036D0B17273B3200ABBE70 /* iOS */ = {
+		882438FB177B7EDC0071C196 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				88036D0C17273B3200ABBE70 /* iOS-Application.xcconfig */,
-				88036D0D17273B3200ABBE70 /* iOS-Base.xcconfig */,
-				88036D0E17273B3200ABBE70 /* iOS-StaticLibrary.xcconfig */,
+				882438FC177B7EDC0071C196 /* iOS-Application.xcconfig */,
+				882438FD177B7EDC0071C196 /* iOS-Base.xcconfig */,
+				882438FE177B7EDC0071C196 /* iOS-StaticLibrary.xcconfig */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -255,7 +301,7 @@
 				885BB8F717237A710077DC8F /* RockemSockem */,
 				885BB90D17237A710077DC8F /* RockemSockemTests */,
 				885BB8F017237A710077DC8F /* Frameworks */,
-				88036CFA17273B3200ABBE70 /* Configuration */,
+				882438E9177B7EDC0071C196 /* xcconfigs */,
 				885BB8EF17237A710077DC8F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -272,12 +318,12 @@
 		885BB8F017237A710077DC8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8824389A177B79A20071C196 /* ReactiveCocoa.xcodeproj */,
 				885BB93217237B940077DC8F /* CocoaHTTPServer */,
 				885BB92E17237B8A0077DC8F /* GCDAsyncSocket.h */,
 				885BB92F17237B8A0077DC8F /* GCDAsyncSocket.m */,
 				885BB97E17237BA60077DC8F /* DDLog.h */,
 				885BB97F17237BA60077DC8F /* DDLog.m */,
-				88C419EF172832DF0006D21A /* ReactiveCocoa.framework */,
 				885BB99317237D0E0077DC8F /* Security.framework */,
 				885BB8F117237A710077DC8F /* Cocoa.framework */,
 				885BB90717237A710077DC8F /* SenTestingKit.framework */,
@@ -462,6 +508,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				882438AC177B79B00071C196 /* PBXTargetDependency */,
 			);
 			name = RockemSockem;
 			productName = RockemSockem;
@@ -493,7 +540,7 @@
 		885BB8E517237A700077DC8F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Josh Abernathy";
 			};
 			buildConfigurationList = 885BB8E817237A700077DC8F /* Build configuration list for PBXProject "RockemSockem" */;
@@ -506,6 +553,12 @@
 			mainGroup = 885BB8E417237A700077DC8F;
 			productRefGroup = 885BB8EF17237A710077DC8F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8824389B177B79A20071C196 /* Products */;
+					ProjectRef = 8824389A177B79A20071C196 /* ReactiveCocoa.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				885BB8ED17237A710077DC8F /* RockemSockem */,
@@ -513,6 +566,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		882438A4177B79A30071C196 /* ReactiveCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveCocoa.framework;
+			remoteRef = 882438A3177B79A30071C196 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		882438A6177B79A30071C196 /* libReactiveCocoa-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoa-iOS.a";
+			remoteRef = 882438A5177B79A30071C196 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		882438A8177B79A30071C196 /* ReactiveCocoaTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactiveCocoaTests.octest;
+			remoteRef = 882438A7177B79A30071C196 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		882438E8177B7ECC0071C196 /* ReactiveCocoaTests-iOS.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoaTests-iOS.octest";
+			remoteRef = 882438E7177B7ECC0071C196 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		885BB8EC17237A710077DC8F /* Resources */ = {
@@ -590,6 +674,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		882438AC177B79B00071C196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReactiveCocoa;
+			targetProxy = 882438AB177B79B00071C196 /* PBXContainerItemProxy */;
+		};
 		885BB90B17237A710077DC8F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 885BB8ED17237A710077DC8F /* RockemSockem */;
@@ -619,7 +708,7 @@
 /* Begin XCBuildConfiguration section */
 		88036D0F17273B6700ABBE70 /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88036CFF17273B3200ABBE70 /* Profile.xcconfig */;
+			baseConfigurationReference = 882438EE177B7EDC0071C196 /* Profile.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -652,7 +741,7 @@
 		};
 		88036D1017273B6700ABBE70 /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88036D0817273B3200ABBE70 /* Mac-Framework.xcconfig */;
+			baseConfigurationReference = 882438F8177B7EDC0071C196 /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -668,7 +757,7 @@
 		};
 		88036D1117273B6700ABBE70 /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88036D0517273B3200ABBE70 /* Mac-Application.xcconfig */;
+			baseConfigurationReference = 882438F8177B7EDC0071C196 /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
@@ -682,7 +771,7 @@
 		};
 		885BB91617237A710077DC8F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88036CFE17273B3200ABBE70 /* Debug.xcconfig */;
+			baseConfigurationReference = 882438ED177B7EDC0071C196 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -722,7 +811,7 @@
 		};
 		885BB91717237A710077DC8F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88036D0017273B3200ABBE70 /* Release.xcconfig */;
+			baseConfigurationReference = 882438EF177B7EDC0071C196 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -755,7 +844,7 @@
 		};
 		885BB91917237A710077DC8F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88036D0817273B3200ABBE70 /* Mac-Framework.xcconfig */;
+			baseConfigurationReference = 882438F8177B7EDC0071C196 /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -771,7 +860,7 @@
 		};
 		885BB91A17237A710077DC8F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88036D0817273B3200ABBE70 /* Mac-Framework.xcconfig */;
+			baseConfigurationReference = 882438F8177B7EDC0071C196 /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -787,7 +876,7 @@
 		};
 		885BB91C17237A710077DC8F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88036D0517273B3200ABBE70 /* Mac-Application.xcconfig */;
+			baseConfigurationReference = 882438F8177B7EDC0071C196 /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
@@ -801,7 +890,7 @@
 		};
 		885BB91D17237A710077DC8F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88036D0517273B3200ABBE70 /* Mac-Application.xcconfig */;
+			baseConfigurationReference = 882438F8177B7EDC0071C196 /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
@@ -815,7 +904,7 @@
 		};
 		88997CB4172891FB00C569A6 /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8857CEF81729C24B003C7A12 /* Test.xcconfig */;
+			baseConfigurationReference = 882438F0177B7EDC0071C196 /* Test.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -855,7 +944,7 @@
 		};
 		88997CB5172891FB00C569A6 /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88036D0817273B3200ABBE70 /* Mac-Framework.xcconfig */;
+			baseConfigurationReference = 882438F8177B7EDC0071C196 /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -871,7 +960,7 @@
 		};
 		88997CB6172891FB00C569A6 /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88036D0517273B3200ABBE70 /* Mac-Application.xcconfig */;
+			baseConfigurationReference = 882438F8177B7EDC0071C196 /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
