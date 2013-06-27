@@ -1,22 +1,23 @@
 //
-//  RSMSocketConnection.m
+//  RSMConnection.m
 //  RockemSockem
 //
 //  Created by Josh Abernathy on 4/19/13.
 //  Copyright (c) 2013 Josh Abernathy. All rights reserved.
 //
 
-#import "RSMSocketConnection.h"
+#import "RSMConnection.h"
 #import "RSMWebSocket+Private.h"
 #import "RSMServer+Private.h"
+#import "HTTPDataResponse.h"
 
-@interface RSMSocketConnection ()
+@interface RSMConnection ()
 
 @property (nonatomic, readonly, unsafe_unretained) RSMServer *server;
 
 @end
 
-@implementation RSMSocketConnection
+@implementation RSMConnection
 
 #pragma mark HTTPConnection
 
@@ -38,7 +39,7 @@
 
 		[strongServer->_webSockets sendNext:socket];
 	}];
-	
+
 	return socket;
 }
 
@@ -48,6 +49,13 @@
 
 	NSString *origin = newRequest.allHeaderFields[@"Origin"];
 	return [acceptableOrigins containsObject:origin];
+}
+
+- (NSObject<HTTPResponse> *)httpResponseForMethod:(NSString *)method URI:(NSString *)path {
+	if (self.server.responseBlock == nil) return nil;
+
+	NSData *responseData = self.server.responseBlock(request, path);
+	return [[HTTPDataResponse alloc] initWithData:responseData];
 }
 
 #pragma mark Server

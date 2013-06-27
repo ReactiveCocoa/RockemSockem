@@ -8,7 +8,7 @@
 
 #import "RSMServer.h"
 #import "RSMServer+Private.h"
-#import "RSMSocketConnection.h"
+#import "RSMConnection.h"
 
 @interface RSMServer ()
 
@@ -32,7 +32,7 @@
 
 	_webSockets = [RACSubject subject];
 
-	self.connectionClass = RSMSocketConnection.class;
+	self.connectionClass = RSMConnection.class;
 
 	return self;
 }

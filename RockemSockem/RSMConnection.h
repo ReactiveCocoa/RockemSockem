@@ -1,5 +1,5 @@
 //
-//  RSMSocketConnection.h
+//  RSMConnection.h
 //  RockemSockem
 //
 //  Created by Josh Abernathy on 4/19/13.
@@ -8,7 +8,7 @@
 
 #import "HTTPConnection.h"
 
-// The WebSocket connection. This should never be initialized directly.
-@interface RSMSocketConnection : HTTPConnection
+// The server connection. This should never be initialized directly.
+@interface RSMConnection : HTTPConnection
 
 @end

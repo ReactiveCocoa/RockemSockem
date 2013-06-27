@@ -8,18 +8,31 @@
 
 #import "HTTPServer.h"
 
-// A WebSocket server.
+@class HTTPMessage;
+
+// The type of the block called for each HTTP request.
+//
+// request - The HTTP request.
+// path    - The path requested. Will have a leading /.
+//
+// Returns the NSData to send as a response.
+typedef NSData * (^RSMServerHTTPResponseBlock)(HTTPMessage *request, NSString *path);
+
+// A WebSocket + HTTP server.
 @interface RSMServer : HTTPServer
 
 // A signal of WSSWebSockets. A new WSSWebSocket will be sent when it has
-// connected and the socket has been opened. At this point, the socket send and
-// receive messages.
+// connected and the socket has been opened. At this point, the socket can send
+// and receive messages.
 @property (nonatomic, readonly, strong) RACSignal *webSockets;
 
 // The origins from which the server will accept connections. By default, this
 // is nil which means all origins will be accepted. This can be used as a
 // security measure to restrict connections to specific server.
 @property (nonatomic, copy) NSArray *acceptedOrigins;
+
+// The block which will be called whenever an HTTP request is made.
+@property (nonatomic, copy) RSMServerHTTPResponseBlock responseBlock;
 
 // Configure the server to use SSL.
 //
