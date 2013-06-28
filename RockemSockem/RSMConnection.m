@@ -9,7 +9,7 @@
 #import "RSMConnection.h"
 #import "RSMWebSocket+Private.h"
 #import "RSMServer+Private.h"
-#import "HTTPDataResponse.h"
+#import "RSMResponse.h"
 
 @interface RSMConnection ()
 
@@ -54,8 +54,7 @@
 - (NSObject<HTTPResponse> *)httpResponseForMethod:(NSString *)method URI:(NSString *)path {
 	if (self.server.responseBlock == nil) return nil;
 
-	NSData *responseData = self.server.responseBlock(request, path);
-	return [[HTTPDataResponse alloc] initWithData:responseData];
+	return self.server.responseBlock(request, path);
 }
 
 #pragma mark Server

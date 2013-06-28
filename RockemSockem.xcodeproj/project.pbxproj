@@ -38,7 +38,7 @@
 		885BB96417237B940077DC8F /* HTTPLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB93E17237B940077DC8F /* HTTPLogging.h */; };
 		885BB96517237B940077DC8F /* HTTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB93F17237B940077DC8F /* HTTPMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		885BB96617237B940077DC8F /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB94017237B940077DC8F /* HTTPMessage.m */; };
-		885BB96717237B940077DC8F /* HTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB94117237B940077DC8F /* HTTPResponse.h */; };
+		885BB96717237B940077DC8F /* HTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB94117237B940077DC8F /* HTTPResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		885BB96817237B940077DC8F /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB94217237B940077DC8F /* HTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		885BB96917237B940077DC8F /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB94317237B940077DC8F /* HTTPServer.m */; };
 		885BB96A17237B940077DC8F /* MultipartFormDataParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB94517237B940077DC8F /* MultipartFormDataParser.h */; };
@@ -49,7 +49,7 @@
 		885BB96F17237B940077DC8F /* MultipartMessageHeaderField.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB94A17237B940077DC8F /* MultipartMessageHeaderField.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		885BB97017237B940077DC8F /* HTTPAsyncFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB94C17237B940077DC8F /* HTTPAsyncFileResponse.h */; };
 		885BB97117237B940077DC8F /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB94D17237B940077DC8F /* HTTPAsyncFileResponse.m */; };
-		885BB97217237B940077DC8F /* HTTPDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB94E17237B940077DC8F /* HTTPDataResponse.h */; };
+		885BB97217237B940077DC8F /* HTTPDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB94E17237B940077DC8F /* HTTPDataResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		885BB97317237B940077DC8F /* HTTPDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB94F17237B940077DC8F /* HTTPDataResponse.m */; };
 		885BB97417237B940077DC8F /* HTTPDynamicFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB95017237B940077DC8F /* HTTPDynamicFileResponse.h */; };
 		885BB97517237B940077DC8F /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB95117237B940077DC8F /* HTTPDynamicFileResponse.m */; settings = {COMPILER_FLAGS = "-w"; }; };
@@ -65,6 +65,8 @@
 		885BB98117237BA60077DC8F /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB97F17237BA60077DC8F /* DDLog.m */; };
 		885BB99417237D0E0077DC8F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885BB99317237D0E0077DC8F /* Security.framework */; };
 		885BB99517237E000077DC8F /* RockemSockem.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB8FE17237A710077DC8F /* RockemSockem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88DE7E9B177E207D00D56754 /* RSMResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 88DE7E99177E207D00D56754 /* RSMResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88DE7E9C177E207D00D56754 /* RSMResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DE7E9A177E207D00D56754 /* RSMResponse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -194,6 +196,8 @@
 		885BB97E17237BA60077DC8F /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = External/CocoaLumberjack/Lumberjack/DDLog.h; sourceTree = "<group>"; };
 		885BB97F17237BA60077DC8F /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = External/CocoaLumberjack/Lumberjack/DDLog.m; sourceTree = "<group>"; };
 		885BB99317237D0E0077DC8F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		88DE7E99177E207D00D56754 /* RSMResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMResponse.h; sourceTree = "<group>"; };
+		88DE7E9A177E207D00D56754 /* RSMResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMResponse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -354,6 +358,8 @@
 				885BB92317237A8B0077DC8F /* RSMWebSocket.h */,
 				885BB92517237A8B0077DC8F /* RSMWebSocket+Private.h */,
 				885BB92417237A8B0077DC8F /* RSMWebSocket.m */,
+				88DE7E99177E207D00D56754 /* RSMResponse.h */,
+				88DE7E9A177E207D00D56754 /* RSMResponse.m */,
 				885BB8F817237A710077DC8F /* Supporting Files */,
 			);
 			path = RockemSockem;
@@ -468,6 +474,9 @@
 				885BB92B17237A8B0077DC8F /* RSMWebSocket.h in Headers */,
 				885BB96817237B940077DC8F /* HTTPServer.h in Headers */,
 				885BB97C17237B940077DC8F /* WebSocket.h in Headers */,
+				88DE7E9B177E207D00D56754 /* RSMResponse.h in Headers */,
+				885BB97217237B940077DC8F /* HTTPDataResponse.h in Headers */,
+				885BB96717237B940077DC8F /* HTTPResponse.h in Headers */,
 				885BB96517237B940077DC8F /* HTTPMessage.h in Headers */,
 				885BB92817237A8B0077DC8F /* RSMServer+Private.h in Headers */,
 				885BB92917237A8B0077DC8F /* RSMConnection.h in Headers */,
@@ -479,12 +488,10 @@
 				885BB96017237B940077DC8F /* HTTPAuthenticationRequest.h in Headers */,
 				885BB96217237B940077DC8F /* HTTPConnection.h in Headers */,
 				885BB96417237B940077DC8F /* HTTPLogging.h in Headers */,
-				885BB96717237B940077DC8F /* HTTPResponse.h in Headers */,
 				885BB96A17237B940077DC8F /* MultipartFormDataParser.h in Headers */,
 				885BB96C17237B940077DC8F /* MultipartMessageHeader.h in Headers */,
 				885BB96E17237B940077DC8F /* MultipartMessageHeaderField.h in Headers */,
 				885BB97017237B940077DC8F /* HTTPAsyncFileResponse.h in Headers */,
-				885BB97217237B940077DC8F /* HTTPDataResponse.h in Headers */,
 				885BB97417237B940077DC8F /* HTTPDynamicFileResponse.h in Headers */,
 				885BB97617237B940077DC8F /* HTTPErrorResponse.h in Headers */,
 				885BB97817237B940077DC8F /* HTTPFileResponse.h in Headers */,
@@ -641,6 +648,7 @@
 				885BB92717237A8B0077DC8F /* RSMServer.m in Sources */,
 				885BB92A17237A8B0077DC8F /* RSMConnection.m in Sources */,
 				885BB92C17237A8B0077DC8F /* RSMWebSocket.m in Sources */,
+				88DE7E9C177E207D00D56754 /* RSMResponse.m in Sources */,
 				885BB93117237B8A0077DC8F /* GCDAsyncSocket.m in Sources */,
 				885BB95B17237B940077DC8F /* DDData.m in Sources */,
 				885BB95D17237B940077DC8F /* DDNumber.m in Sources */,

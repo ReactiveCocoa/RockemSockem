@@ -8,3 +8,4 @@
 
 #import "RSMServer.h"
 #import "RSMWebSocket.h"
+#import "RSMResponse.h"

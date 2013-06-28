@@ -9,14 +9,15 @@
 #import "HTTPServer.h"
 
 @class HTTPMessage;
+@class RSMResponse;
 
 // The type of the block called for each HTTP request.
 //
 // request - The HTTP request.
 // path    - The path requested. Will have a leading /.
 //
-// Returns the NSData to send as a response.
-typedef NSData * (^RSMServerHTTPResponseBlock)(HTTPMessage *request, NSString *path);
+// Returns the response to send. It may return nil which will send a 404.
+typedef RSMResponse * (^RSMServerHTTPResponseBlock)(HTTPMessage *request, NSString *path);
 
 // A WebSocket + HTTP server.
 @interface RSMServer : HTTPServer
