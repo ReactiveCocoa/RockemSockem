@@ -105,6 +105,20 @@
 			remoteGlobalIDString = 5FAF5223174D4C2000CAC810;
 			remoteInfo = "ReactiveCocoaTests-iOS";
 		};
+		883DDBBF17B2C6F600636981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8824389A177B79A20071C196 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1860F412177C91B500C7B3C9;
+			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHost";
+		};
+		883DDBC117B2C6F600636981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8824389A177B79A20071C196 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1860F430177C91B500C7B3C9;
+			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHostTests";
+		};
 		885BB90A17237A710077DC8F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 885BB8E517237A700077DC8F /* Project object */;
@@ -231,6 +245,8 @@
 				882438A6177B79A30071C196 /* libReactiveCocoa-iOS.a */,
 				882438A8177B79A30071C196 /* ReactiveCocoaTests.octest */,
 				882438E8177B7ECC0071C196 /* ReactiveCocoaTests-iOS.octest */,
+				883DDBC017B2C6F600636981 /* ReactiveCocoa-iOS-UIKitTestHost.app */,
+				883DDBC217B2C6F600636981 /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -601,6 +617,20 @@
 			fileType = wrapper.cfbundle;
 			path = "ReactiveCocoaTests-iOS.octest";
 			remoteRef = 882438E7177B7ECC0071C196 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		883DDBC017B2C6F600636981 /* ReactiveCocoa-iOS-UIKitTestHost.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "ReactiveCocoa-iOS-UIKitTestHost.app";
+			remoteRef = 883DDBBF17B2C6F600636981 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		883DDBC217B2C6F600636981 /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoa-iOS-UIKitTestHostTests.octest";
+			remoteRef = 883DDBC117B2C6F600636981 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
