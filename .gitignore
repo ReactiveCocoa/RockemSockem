@@ -17,6 +17,7 @@ DerivedData
 *.hmap
 
 project.xcworkspace
+build
 
 #CocoaPods
 Pods
