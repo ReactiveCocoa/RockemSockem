@@ -14,7 +14,6 @@
 		885BB90917237A710077DC8F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885BB8F117237A710077DC8F /* Cocoa.framework */; };
 		885BB90C17237A710077DC8F /* RockemSockem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885BB8EE17237A710077DC8F /* RockemSockem.framework */; };
 		885BB91217237A710077DC8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 885BB91017237A710077DC8F /* InfoPlist.strings */; };
-		885BB91517237A710077DC8F /* RockemSockemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB91417237A710077DC8F /* RockemSockemTests.m */; };
 		885BB92617237A8B0077DC8F /* RSMServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB91E17237A8B0077DC8F /* RSMServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		885BB92717237A8B0077DC8F /* RSMServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB91F17237A8B0077DC8F /* RSMServer.m */; };
 		885BB92817237A8B0077DC8F /* RSMServer+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB92017237A8B0077DC8F /* RSMServer+Private.h */; };
@@ -126,6 +125,13 @@
 			remoteGlobalIDString = 885BB8ED17237A710077DC8F;
 			remoteInfo = RockemSockem;
 		};
+		D0CE61DE183166AE00ECCC8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8824389A177B79A20071C196 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D05AD39417F2D56F0080895B;
+			remoteInfo = "ReactiveCocoa-Mac";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -159,8 +165,6 @@
 		885BB90717237A710077DC8F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		885BB90F17237A710077DC8F /* RockemSockemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RockemSockemTests-Info.plist"; sourceTree = "<group>"; };
 		885BB91117237A710077DC8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		885BB91317237A710077DC8F /* RockemSockemTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RockemSockemTests.h; sourceTree = "<group>"; };
-		885BB91417237A710077DC8F /* RockemSockemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RockemSockemTests.m; sourceTree = "<group>"; };
 		885BB91E17237A8B0077DC8F /* RSMServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMServer.h; sourceTree = "<group>"; };
 		885BB91F17237A8B0077DC8F /* RSMServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMServer.m; sourceTree = "<group>"; };
 		885BB92017237A8B0077DC8F /* RSMServer+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RSMServer+Private.h"; sourceTree = "<group>"; };
@@ -247,6 +251,7 @@
 				882438E8177B7ECC0071C196 /* ReactiveCocoaTests-iOS.octest */,
 				883DDBC017B2C6F600636981 /* ReactiveCocoa-iOS-UIKitTestHost.app */,
 				883DDBC217B2C6F600636981 /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */,
+				D0CE61DF183166AE00ECCC8B /* libReactiveCocoa-Mac.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -394,8 +399,6 @@
 		885BB90D17237A710077DC8F /* RockemSockemTests */ = {
 			isa = PBXGroup;
 			children = (
-				885BB91317237A710077DC8F /* RockemSockemTests.h */,
-				885BB91417237A710077DC8F /* RockemSockemTests.m */,
 				885BB90E17237A710077DC8F /* Supporting Files */,
 			);
 			path = RockemSockemTests;
@@ -545,7 +548,6 @@
 				885BB90117237A710077DC8F /* Sources */,
 				885BB90217237A710077DC8F /* Frameworks */,
 				885BB90317237A710077DC8F /* Resources */,
-				885BB90417237A710077DC8F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -633,6 +635,13 @@
 			remoteRef = 883DDBC117B2C6F600636981 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		D0CE61DF183166AE00ECCC8B /* libReactiveCocoa-Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoa-Mac.a";
+			remoteRef = D0CE61DE183166AE00ECCC8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -653,22 +662,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		885BB90417237A710077DC8F /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		885BB8E917237A710077DC8F /* Sources */ = {
@@ -705,7 +698,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				885BB91517237A710077DC8F /* RockemSockemTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
