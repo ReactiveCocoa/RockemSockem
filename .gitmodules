@@ -1,6 +1,6 @@
 [submodule "External/CocoaHTTPServer"]
 	path = External/CocoaHTTPServer
-	url = https://github.com/joshaber/CocoaHTTPServer.git
+	url = https://github.com/robrix/CocoaHTTPServer.git
 [submodule "External/CocoaAsyncSocket"]
 	path = External/CocoaAsyncSocket
 	url = https://github.com/robbiehanson/CocoaAsyncSocket.git
