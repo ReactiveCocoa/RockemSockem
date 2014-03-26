@@ -33,6 +33,8 @@ if (!success) {
 
 See [RockemSockemSample](RockemSockemSample/) for a slightly complete example.
 
+If you’re developing RockemSockem on its own, then simply open `RockemSockem.xcworkspace`.
+
 # What about iOS?
 
 If you're running a WebSocker server on iOS I feel bad for you son. I got 99 problems and RockemSockem not running on iOS ain't one. (Pull requests welcome.)
