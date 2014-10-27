@@ -57,7 +57,7 @@
 		885BB97A17237B940077DC8F /* HTTPRedirectResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB95617237B940077DC8F /* HTTPRedirectResponse.h */; };
 		885BB97B17237B940077DC8F /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB95717237B940077DC8F /* HTTPRedirectResponse.m */; };
 		885BB97C17237B940077DC8F /* WebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB95817237B940077DC8F /* WebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		885BB97D17237B940077DC8F /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB95917237B940077DC8F /* WebSocket.m */; };
+		885BB97D17237B940077DC8F /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB95917237B940077DC8F /* WebSocket.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		885BB98017237BA60077DC8F /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BB97E17237BA60077DC8F /* DDLog.h */; };
 		885BB98117237BA60077DC8F /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BB97F17237BA60077DC8F /* DDLog.m */; };
 		885BB99417237D0E0077DC8F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885BB99317237D0E0077DC8F /* Security.framework */; };
@@ -624,7 +624,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_CFLAGS = (
 					"-Wall",
 					"-Werror",
@@ -691,7 +691,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-Wall",
@@ -724,7 +724,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_CFLAGS = (
 					"-Wall",
 					"-Werror",
@@ -820,7 +820,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-Wall",
