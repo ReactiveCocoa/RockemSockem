@@ -8,6 +8,7 @@
 
 #import "WebSocket.h"
 #import "HTTPMessage.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
 
 // A single WebSocket.
 @interface RSMWebSocket : WebSocket

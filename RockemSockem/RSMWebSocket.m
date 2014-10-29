@@ -8,6 +8,7 @@
 
 #import "RSMWebSocket.h"
 #import "GCDAsyncSocket.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
 
 @interface RSMWebSocket () {
 	RACSubject *_messages;
