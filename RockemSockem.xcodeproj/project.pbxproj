@@ -621,10 +621,6 @@
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/RockemSockem-dsrddmoomcyzjwaiqnhittgkxwmb/Build/Products/Debug",
-				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "RockemSockem/RockemSockem-Info.plist";
 				WRAPPER_EXTENSION = framework;
@@ -675,10 +671,6 @@
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/RockemSockem-dsrddmoomcyzjwaiqnhittgkxwmb/Build/Products/Debug",
-				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "RockemSockem/RockemSockem-Info.plist";
 				WRAPPER_EXTENSION = framework;
@@ -691,10 +683,6 @@
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/RockemSockem-dsrddmoomcyzjwaiqnhittgkxwmb/Build/Products/Debug",
-				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "RockemSockem/RockemSockem-Info.plist";
 				WRAPPER_EXTENSION = framework;
@@ -741,10 +729,6 @@
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/RockemSockem-dsrddmoomcyzjwaiqnhittgkxwmb/Build/Products/Debug",
-				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "RockemSockem/RockemSockem-Info.plist";
 				WRAPPER_EXTENSION = framework;
