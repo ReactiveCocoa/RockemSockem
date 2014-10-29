@@ -8,6 +8,8 @@
 
 #import "HTTPServer.h"
 
+#import <ReactiveCocoa/ReactiveCocoa.h>
+
 @class HTTPMessage;
 @class RSMResponse;
 
