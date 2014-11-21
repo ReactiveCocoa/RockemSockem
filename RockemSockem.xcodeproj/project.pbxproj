@@ -194,7 +194,7 @@
 				882438FB177B7EDC0071C196 /* iOS */,
 			);
 			name = xcconfigs;
-			path = External/ReactiveCocoa/external/xcconfigs;
+			path = Carthage.checkout/xcconfigs;
 			sourceTree = "<group>";
 		};
 		882438EA177B7EDC0071C196 /* Base */ = {

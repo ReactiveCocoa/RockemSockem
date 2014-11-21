@@ -7,6 +7,15 @@
 [submodule "External/CocoaLumberjack"]
 	path = External/CocoaLumberjack
 	url = https://github.com/robbiehanson/CocoaLumberjack.git
-[submodule "External/ReactiveCocoa"]
-	path = External/ReactiveCocoa
+[submodule "Carthage.checkout/xcconfigs"]
+	path = Carthage.checkout/xcconfigs
+	url = https://github.com/jspahrsummers/xcconfigs.git
+[submodule "Carthage.checkout/ReactiveCocoa"]
+	path = Carthage.checkout/ReactiveCocoa
 	url = https://github.com/ReactiveCocoa/ReactiveCocoa.git
+[submodule "Carthage.checkout/Nimble"]
+	path = Carthage.checkout/Nimble
+	url = https://github.com/Quick/Nimble.git
+[submodule "Carthage.checkout/Quick"]
+	path = Carthage.checkout/Quick
+	url = https://github.com/Quick/Quick.git
