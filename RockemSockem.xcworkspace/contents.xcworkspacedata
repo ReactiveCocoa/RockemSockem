@@ -5,6 +5,6 @@
       location = "group:RockemSockem.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Carthage.checkout/ReactiveCocoa/ReactiveCocoa.xcodeproj">
+      location = "group:Carthage/Checkouts/ReactiveCocoa/ReactiveCocoa.xcodeproj">
    </FileRef>
 </Workspace>
