@@ -493,7 +493,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastTestingUpgradeCheck = 0510;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Josh Abernathy";
 			};
 			buildConfigurationList = 885BB8E817237A700077DC8F /* Build configuration list for PBXProject "RockemSockem" */;
@@ -642,6 +642,7 @@
 			baseConfigurationReference = 882438ED177B7EDC0071C196 /* Debug.xcconfig */;
 			buildSettings = {
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-Wall",
 					"-Werror",
