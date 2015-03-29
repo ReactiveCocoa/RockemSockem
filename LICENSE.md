@@ -1,4 +1,4 @@
-**Copyright (c) 2013, Josh Abernathy**
+**Copyright (c) 2015, Josh Abernathy**
 **All rights reserved.**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
